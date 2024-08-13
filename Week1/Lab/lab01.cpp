@@ -27,22 +27,8 @@ int main()
     // 5. sort the pot accending order
     sort(p.begin(), p.end());
 
-    cout << "Pot: ";
-    for (int i = 0; i < n; i++)
-    {
-        cout << p[i] << " ";
-    }
-    cout << endl;
-
     // 6. sort the tree decending order
     sort(t.begin(), t.end(), greater<int>());
-
-    cout << "Tree: ";
-    for (int i = 0; i < n; i++)
-    {
-        cout << t[i] << " ";
-    }
-    cout << endl;
 
     // 7. Declare the total height
     vector<int> p_t;
@@ -55,13 +41,6 @@ int main()
 
     // 9. sort the total height
     sort(p_t.begin(), p_t.end());
-
-    cout << "Total: ";
-    for (int i = 0; i < n; i++)
-    {
-        cout << p_t[i] << " ";
-    }
-    cout << endl;
 
     // 10. Declare the sum of difference
     int sum_diff = 0;
